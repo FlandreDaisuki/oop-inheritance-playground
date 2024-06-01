@@ -7,3 +7,5 @@ docker run --rm -it ghcr.io/flandredaisuki/oop-inheritance-playground make js
 docker run --rm -it ghcr.io/flandredaisuki/oop-inheritance-playground make python
 docker run --rm -it ghcr.io/flandredaisuki/oop-inheritance-playground make ruby
 ```
+
+article: FlandreDaisuki/github-issue-blog#16
