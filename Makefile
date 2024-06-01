@@ -1,17 +1,15 @@
 .PHONY: cpp
 cpp:
 	@echo
-	g++ cpp/main.cpp
 	batcat cpp/main.cpp
-	./a.out
+	g++ cpp/main.cpp; ./a.out
 	@echo
 
 .PHONY: java
 java:
 	@echo
-	javac java/main.java
 	batcat java/main.java
-	cd java; java Main
+	javac java/main.java; cd java; java Main
 	@echo
 
 .PHONY: js
